@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/assests/css/signup.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Social Media App</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="leftcolumn">
+              <form class="myfoam text-center" id="signupform">
+                <h2>Create your Account</h2>
+               <div class="form-group">
+              <input
+                type="text"
+                class="inputfield"
+                name="name"
+                placeholder="Full Name"
+                id="fullname"
+                autocomplete="off"
+                 required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="inputfield"
+                name="email"
+                placeholder="Email"
+                id="email"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                class="inputfield"
+                name="password"
+                placeholder="Password"
+                required
+                id="password"
+                autocomplete="off"
+                minlength="8"
+                maxlength="100"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                class="inputfield"
+                name="confirm_password"
+                autocomplete="off"
+                placeholder="Confirm Password"
+                required 
+                minlength="8"
+                maxlength="100"
+                id="confirmpassword"
+              />
+            </div>
+            <div class="form-group">
+           <button type="button" class="btn btn-warning btn-lg btn-block"
+         onclick="membersData()">Submit
+              </button>
+            </div>
+            <div class="form-group">
+              <a href="/signin.html"> <span style="text-align: center;"> Sign In</span></a>
+                  </div> 
+              </div>
+              </form>
+              
+            </div>
+              </div>
+                </div>
+            
+            
+    
+    <script src="/assests/script/signup.js"></script>
+  </body>
+</html>
